@@ -22,7 +22,7 @@
    * [GDB與OBJDUMP](gdbyu_objdump.md)
 * [Network Pattern](network_pattern.md)
    * [Multithreaded UDP server](multithreaded_udp_server.md)
-   * I/O Model
+   * [I/O Model](io_model.md)
 * [Refactoring](refactoring.md)
    * [Config loader / command parser](config_loader__command_parser.md)
        * [six-byte-MAC to string](six-byte-mac_to_string.md)
