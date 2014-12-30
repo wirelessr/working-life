@@ -33,6 +33,7 @@
        * six-byte-MAC to string
    * Message queue, semaphore, and shared memory大混戰
    * TLV速成講解
+   * Global Environment Varaible
 * Network Pattern
    * I/O Model
    * Multithreaded UDP server
