@@ -17,7 +17,7 @@
    * [Multicast IPC](multicast_ipc.md)
    * [wait vs. waitpid](wait_vs_waitpid.md)
    * [Monitor file system](monitor_file_system.md)
-   * Linux timer
+   * [Linux timer](linux_timer.md)
 * [Troubleshooting](troubleshooting.md)
    * [GDB與OBJDUMP](gdbyu_objdump.md)
 * [Network Pattern](network_pattern.md)
