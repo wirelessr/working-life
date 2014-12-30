@@ -27,5 +27,6 @@
 * Network Pattern
    * I/O Model
    * Multithreaded UDP server
+   * DTLS & multithreaded UDP server part 2
 * Misc.
 
