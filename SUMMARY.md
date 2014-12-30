@@ -9,6 +9,7 @@
    * [Strategy](strategy.md)
 * [Advanced C Socket](advanced_c_socket.md)
 * [Linux C](linux_c.md)
+   * snprintf 妙無窮
 * [Troubleshooting](troubleshooting.md)
 * [Network Pattern](network_pattern.md)
 * [Refactoring](refactoring.md)
