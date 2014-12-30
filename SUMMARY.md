@@ -33,6 +33,7 @@
    * I/O Model
    * Multithreaded UDP server
    * DTLS & multithreaded UDP server part 2
+   * 鎖定thread在特定CPU
 * Misc.
    * Autotools: conditional target
    * Local SVN
