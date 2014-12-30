@@ -20,6 +20,7 @@
 * Refactoring
    * IPC中如何傳linked-list?
    * Config loader / command parser
+       * six-byte-MAC to string
 * Network Pattern
 * Misc.
 
