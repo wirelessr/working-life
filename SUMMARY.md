@@ -22,6 +22,7 @@
    * Monitor file system
    * C container
    * SOCK_RAW with tcpdump
+   * Set daemon's title
 * Troubleshooting
    * GDB與OBJDUMP
 * Refactoring
