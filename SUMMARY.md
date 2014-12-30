@@ -26,6 +26,7 @@
    * Atomic variable in user space
 * Troubleshooting
    * GDB與OBJDUMP
+   * NVGRE loses DHCP OFFER
 * Refactoring
    * IPC中如何傳linked-list?
    * Config loader / command parser
