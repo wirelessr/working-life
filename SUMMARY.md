@@ -5,6 +5,7 @@
    * Expect妙用無窮
 * C Design Pattern 
    * Template Method
+   * Observer
 * Advanced C Socket
 * Linux C
 * Troubleshooting
