@@ -19,6 +19,7 @@
 * Troubleshooting
 * Refactoring
    * IPC中如何傳linked-list?
+   * Config loader / command parser
 * Network Pattern
 * Misc.
 
