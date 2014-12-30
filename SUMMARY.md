@@ -15,6 +15,7 @@
    * snprintf 妙無窮
    * 如何重新開啟stdout?
    * Multicast IPC
+   * wait vs. waitpid
 * Troubleshooting
 * Refactoring
 * Network Pattern
