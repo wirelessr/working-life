@@ -9,6 +9,7 @@
    * Strategy
 * Advanced C Socket
    * recvfrom vs. recvmsg
+   * iptables 強制指定 outgoing interface
 * Linux C
 * Troubleshooting
 * Refactoring
