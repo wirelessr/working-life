@@ -6,7 +6,7 @@
 * [C Design Pattern ](c_design_pattern.md)
    * [Template Method](template_method.md)
    * Observer
-   * Strategy
+   * [Strategy](strategy.md)
 * [Advanced C Socket](advanced_c_socket.md)
 * [Linux C](linux_c.md)
 * [Troubleshooting](troubleshooting.md)
