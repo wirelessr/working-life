@@ -15,6 +15,7 @@
    * [snprintf 妙無窮](snprintf_miao_wu_qiong.md)
    * [如何重新開啟stdout?](ru_he_zhong_xin_kai_qi_stdout.md)
 * [Troubleshooting](troubleshooting.md)
+   * GDB與OBJDUMP
 * [Network Pattern](network_pattern.md)
 * [Refactoring](refactoring.md)
 * [Misc.](misc.md)
