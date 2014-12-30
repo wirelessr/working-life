@@ -9,4 +9,5 @@
 * Troubleshooting
 * Refactoring
 * Network Pattern
+* Misc.
 
