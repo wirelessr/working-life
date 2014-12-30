@@ -6,4 +6,5 @@
 * C Design Pattern 
 * [Advanced C Socket](advanced_c_socket.md)
 * [Linux C](linux_c.md)
+* Troubleshooting
 
