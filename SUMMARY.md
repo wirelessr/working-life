@@ -23,6 +23,7 @@
    * C container
    * SOCK_RAW with tcpdump
    * Set daemon's title
+   * Atomic variable in user space
 * Troubleshooting
    * GDB與OBJDUMP
 * Refactoring
