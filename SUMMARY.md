@@ -12,6 +12,7 @@
    * iptables 強制指定 outgoing interface
    * sendmsg & source addr
 * Linux C
+   * snprintf 妙無窮
 * Troubleshooting
 * Refactoring
 * Network Pattern
