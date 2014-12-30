@@ -24,7 +24,6 @@
    * SOCK_RAW with tcpdump
    * Set daemon's title
    * Atomic variable in user space
-   * Message queue, semaphore, and shared memory大混戰
 * Troubleshooting
    * GDB與OBJDUMP
 * Refactoring
