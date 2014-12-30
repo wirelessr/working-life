@@ -92,12 +92,8 @@ int main()
 	subject.setData("This is a subject data ver.2\n");    
 	return 0;
 } 
-
 ```
 上述是C語言實現observer的方法，寫的是簡陋了點，但重點有點出來，就是資料觀察者將自己的function pointer丟給資料擁有者，當資料有變更時，擁有者就會透過pointer叫你過來看。
 
 原理簡單，但在實際應用上可以千變萬化也可以透過domain socket或TCP/IP socket來完成這概念。
-
-
-
 ```
