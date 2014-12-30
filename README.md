@@ -5,6 +5,28 @@ Welcome in my book!
 
 This is an exercise:
 
+*TEST*
+
+**TEST**
+
+_TEST_
+
+1. sss
+2. eee
+3. xxx
+    
+
+- ssss
+- eeee
+- xxxx
+    
+> oooo    
+> PPPP    
+> LALALA
+
+`TEST`
+
+
 ---
 
 Define a variable `x` equal to 10.
@@ -28,5 +50,6 @@ function magicFunc() {
     return 3;
 }
 ```
+
 
 ---
