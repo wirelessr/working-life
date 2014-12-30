@@ -13,6 +13,7 @@
    * sendmsg & source addr
 * Linux C
    * snprintf 妙無窮
+   * 如何重新開啟stdout?
 * Troubleshooting
 * Refactoring
 * Network Pattern
