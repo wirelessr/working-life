@@ -30,6 +30,7 @@
    * IPC中如何傳linked-list?
    * Config loader / command parser
        * six-byte-MAC to string
+   * Message queue, semaphore, and shared memory大混戰
 * Network Pattern
    * I/O Model
    * Multithreaded UDP server
