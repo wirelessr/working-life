@@ -13,7 +13,7 @@
    * [sendmsg & source addr](sendmsg_&_source_addr.md)
 * [Linux C](linux_c.md)
    * [snprintf 妙無窮](snprintf_miao_wu_qiong.md)
-   * 如何重新開啟stdout?
+   * [如何重新開啟stdout?](ru_he_zhong_xin_kai_qi_stdout.md)
 * [Troubleshooting](troubleshooting.md)
 * [Network Pattern](network_pattern.md)
 * [Refactoring](refactoring.md)
