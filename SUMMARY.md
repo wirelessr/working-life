@@ -20,6 +20,7 @@
 * [Network Pattern](network_pattern.md)
 * [Refactoring](refactoring.md)
    * [Config loader / command parser](config_loader__command_parser.md)
+       * six-byte-MAC to string
 * [Misc.](misc.md)
    * [C語言的單元測試](cyu_yan_de_dan_yuan_ce_shi.md)
    * [Local SVN](local_svn.md)
