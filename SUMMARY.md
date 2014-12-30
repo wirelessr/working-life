@@ -5,7 +5,7 @@
    * [Expect妙用無窮](expectmiao_yong_wu_qiong.md)
 * [C Design Pattern ](c_design_pattern.md)
    * [Template Method](template_method.md)
-   * Observer
+   * [Observer](observer.md)
    * [Strategy](strategy.md)
 * [Advanced C Socket](advanced_c_socket.md)
    * recvfrom vs. recvmsg
