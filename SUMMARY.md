@@ -8,6 +8,7 @@
    * Observer
    * [Strategy](strategy.md)
 * [Advanced C Socket](advanced_c_socket.md)
+   * recvfrom vs. recvmsg
 * [Linux C](linux_c.md)
    * [snprintf 妙無窮](snprintf_miao_wu_qiong.md)
 * [Troubleshooting](troubleshooting.md)
