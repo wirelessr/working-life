@@ -26,6 +26,7 @@
    * [Atomic variable in user space](atomic_variable_in_user_space.md)
 * [Troubleshooting](troubleshooting.md)
    * [GDB與OBJDUMP](gdbyu_objdump.md)
+   * Ubuntu 14.04 Wi-Fi connection failed!
 * [Network Pattern](network_pattern.md)
    * [I/O Model](io_model.md)
    * [Multithreaded UDP server](multithreaded_udp_server.md)
