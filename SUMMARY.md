@@ -20,6 +20,7 @@
    * Monitor file system
    * C container
 * Troubleshooting
+   * GDB與OBJDUMP
 * Refactoring
    * IPC中如何傳linked-list?
    * Config loader / command parser
