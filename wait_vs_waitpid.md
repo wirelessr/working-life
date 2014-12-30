@@ -59,7 +59,32 @@ switch (fork())
 		break;
 }
 ```
-
+只要讓child睡一下，child就會從run queue被排到interruptable，這樣在run queue的parent就能先拿到time slot。但這種解法太智障了，其實還有另外一種做法，就是用waitpid替代wait
+```
+switch (cpid = fork())
+{
+	case -1:
+		break;
+	case 0:
+		sleep(1);
+		execl("/util/AAA", "/util/AAA", "-s", "OOXX", NULL);
+		exit(1);
+	default:
+		waitpid(cpid, &status, WNOHANG);
+		if(WIFEXITED(status)) 
+		{
+			ret = WEXITSTATUS(status);
+		} 
+		else if(WIFSIGNALED(status))
+		{
+			ret = WTERMSIG(status)
+		}
+		break;
+}
+```
+waitpid一樣會有child first的問題，但用WNOHANG就可以避免hang死的問題，即使child process先執行完，pid消失waitpid就會return。記得caller必須要做好error handler，不然問題就會從原本的hang死變成un-expected。
+ 
+P.S. 在kernel 2.6.33(?)的kernel config就有CHILD FIRST的開關，確切版本如果有熟悉新kernel 的再跟我說吧
 
 
 
