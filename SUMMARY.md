@@ -34,4 +34,5 @@
    * Autotools: conditional target
    * Local SVN
    * C語言的單元測試
+   * Garbage collection in C
 
