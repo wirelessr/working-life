@@ -38,5 +38,5 @@
    * [Local SVN](local_svn.md)
    * [Autotools: conditional target](autotools_conditional_target.md)
    * [Garbage collection in C](garbage_collection_in_c.md)
-   * Nautilus (Ubuntu右鍵擴充)
+   * [Nautilus (Ubuntu右鍵擴充)](nautilus_ubuntuyou_jian_kuo_514529.md)
 
