@@ -5,7 +5,7 @@
 看起來很簡單的目標但著實不簡單，首先要告訴你，recvfrom無法做到這種高尚的工作，若是原來的程式是用recvfrom寫成的，第一步就必須是要將recvfrom改寫成recvmsg。
 
 以下將介紹如何改寫recvfrom，但不會去講解這兩者的差異和原理。我們的目標是改寫原來的
-> len = recvfrom(fd, msgbuf, UDP_MAX_PAYLOAD_LEN, 0, (struct sockaddr *)dest, (socklen_t*)&destlen);    
+> len = recvfrom(fd, msgbuf, UDP_MAX_PAYLOAD_LEN, 0, (struct sockaddr \*)dest, (socklen_t*)&destlen);    
 
 將其改為recvmsg並且設定一些sockopt去取得interface的相關資訊
 
