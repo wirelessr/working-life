@@ -12,6 +12,7 @@
 2. 超大上限
 3. 容易管理和使用
  
+
 而最後從淘汰賽存留下來的是`timerfd_create`, `timerfd_settime`, `timerfd_gettime`，應該有似曾相識的感覺吧，其實把fd兩個字拿掉，跟timer_create系列也沒差多少。
  
 但fd這兩個字非常讚，timer\_create是透過註冊signal來trigger，time's up時就是signal handler hold，而`timerfd_create`則是註冊一個fd，而time's up時則是使fd變成readable。
