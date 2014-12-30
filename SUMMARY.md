@@ -9,7 +9,7 @@
    * [Strategy](strategy.md)
    * [Polymorphism in C](polymorphism_in_c.md)
 * [Advanced C Socket](advanced_c_socket.md)
-   * recvfrom vs. recvmsg
+   * [recvfrom vs. recvmsg](recvfrom_vs_recvmsg.md)
    * [iptables 強制指定 outgoing interface](iptables_qiang_zhi_zhi_ding_outgoing_interface.md)
    * [sendmsg & source addr](sendmsg_&_source_addr.md)
 * [Linux C](linux_c.md)
