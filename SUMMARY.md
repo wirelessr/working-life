@@ -36,6 +36,7 @@
    * [Config loader / command parser](config_loader__command_parser.md)
        * [six-byte-MAC to string](six-byte-mac_to_string.md)
    * [IPC中如何傳linked-list?](ipczhong_ru_he_chuan_linked_-_list.md)
+   * Message queue, semaphore, and shared memory大混戰
 * [Misc.](misc.md)
    * [C語言的單元測試](cyu_yan_de_dan_yuan_ce_shi.md)
    * [Local SVN](local_svn.md)
