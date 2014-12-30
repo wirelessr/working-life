@@ -27,6 +27,7 @@
 * Troubleshooting
    * GDB與OBJDUMP
    * NVGRE loses DHCP OFFER
+   * Linux getopt twice
 * Refactoring
    * IPC中如何傳linked-list?
    * Config loader / command parser
