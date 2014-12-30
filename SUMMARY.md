@@ -14,7 +14,7 @@
 * [Linux C](linux_c.md)
    * [snprintf 妙無窮](snprintf_miao_wu_qiong.md)
    * [如何重新開啟stdout?](ru_he_zhong_xin_kai_qi_stdout.md)
-   * Multicast IPC
+   * [Multicast IPC](multicast_ipc.md)
 * [Troubleshooting](troubleshooting.md)
    * [GDB與OBJDUMP](gdbyu_objdump.md)
 * [Network Pattern](network_pattern.md)
