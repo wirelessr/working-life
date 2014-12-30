@@ -6,6 +6,7 @@
 * C Design Pattern 
    * Template Method
    * Observer
+   * Strategy
 * Advanced C Socket
 * Linux C
 * Troubleshooting
