@@ -7,6 +7,7 @@
    * Template Method
    * Observer
    * Strategy
+   * Polymorphism in C
 * Advanced C Socket
    * recvfrom vs. recvmsg
    * iptables 強制指定 outgoing interface
