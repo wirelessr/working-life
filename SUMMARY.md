@@ -24,5 +24,6 @@
    * Config loader / command parser
        * six-byte-MAC to string
 * Network Pattern
+   * I/O Model
 * Misc.
 
