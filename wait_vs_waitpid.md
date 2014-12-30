@@ -37,6 +37,28 @@ switch (fork())
 答案是，child跑完了，然後parent才起來wait，那這parent是要等洨阿？就會hang死。
  
 解法其實有很多，我們通常稱這種問題叫做timing issue，顧名思義，平常沒事，但若那個timing督到就有issue，而這種問題通常sleep就搞定了，如下
+```
+switch (fork())
+{
+	case -1:
+		break;
+	case 0:
+		sleep(1);
+		execl("/util/AAA", "/util/AAA", "-s", "OOXX", NULL);
+		exit(1);
+	default:
+		wait(&status);
+		if(WIFEXITED(status)) 
+		{
+			ret = WEXITSTATUS(status);
+		} 
+		else if(WIFSIGNALED(status))
+		{
+			ret = WTERMSIG(status)
+		}
+		break;
+}
+```
 
 
 
