@@ -7,6 +7,7 @@
    * [Template Method](template_method.md)
    * [Observer](observer.md)
    * [Strategy](strategy.md)
+   * Polymorphism in C
 * [Advanced C Socket](advanced_c_socket.md)
    * recvfrom vs. recvmsg
    * [iptables 強制指定 outgoing interface](iptables_qiang_zhi_zhi_ding_outgoing_interface.md)
