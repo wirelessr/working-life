@@ -14,7 +14,7 @@ cpu_set_t set;
 CPU_ZERO( &set );
 CPU_SET( proc_num, &set );
 sched_setaffinity( gettid(), sizeof( cpu_set_t ), &set );
- ```
+```
 補充一點，要compile過通常要加上
  
 > \#define _GNU_SOURCE
