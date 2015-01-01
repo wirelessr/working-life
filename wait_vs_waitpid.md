@@ -43,7 +43,7 @@ switch (fork())
 	case -1:
 		break;
 	case 0:
-		sleep(1);
+		sleep(1); /* child sleep first */
 		execl("/util/AAA", "/util/AAA", "-s", "OOXX", NULL);
 		exit(1);
 	default:
