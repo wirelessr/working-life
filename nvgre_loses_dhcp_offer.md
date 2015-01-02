@@ -20,7 +20,7 @@ Controller和AP用192.168.1.x的網段建tunnel，但tunnel卻是被bridge在br3
  
 那tcpdump在搞啥鬼，所以我做了一個很痛的決定，我在原本插printk的點全部改成`printk_hex` (我自己寫的，用來把封包從頭到尾dump出來)，最後總算發現是掉在gretap1內，也就是`ipgre_tunnel_xmit`。
 
-深入去了解後發現到，skb指向IP header的指針根本指錯了，導致IP header說不需要fragmentation但GRE看到的卻是IP header內的total length大到連他媽都不認識，遠超過IP的MTU。
+深入去了解後發現到，skb指向IP header的指針根本指錯了，導致IP header說不需要fragmentation但GRE看到的卻是IP header內的total length大到連他媽都不認識，遠超過IP的MTU。如示意圖：
 
 ![](http://i.imgur.com/AoJJDtd.jpg)
 
@@ -36,4 +36,3 @@ Controller和AP用192.168.1.x的網段建tunnel，但tunnel卻是被bridge在br3
 
 
  
-如示意圖
