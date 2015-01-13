@@ -44,8 +44,8 @@
 * [Autotools: conditional target](autotools_conditional_target.md)
 * [Misc.](misc.md)
    * [C語言的單元測試](cyu_yan_de_dan_yuan_ce_shi.md)
-   * [Local SVN](local_svn.md)
    * Autotools
+   * [Local SVN](local_svn.md)
    * [Garbage collection in C](garbage_collection_in_c.md)
    * [Nautilus (Ubuntu右鍵擴充)](nautilus_ubuntuyou_jian_kuo_514529.md)
    * [Network virtualize lab DIY](network_virtualize_lab_diy.md)
