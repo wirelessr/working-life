@@ -42,10 +42,10 @@
    * [TLV速成講解](tlvsu_cheng_jiang_jie.md)
    * [Global Environment Varaible](global_environment_varaible.md)
 * [Autotools: conditional target](autotools_conditional_target.md)
-* Autotools
 * [Misc.](misc.md)
    * [C語言的單元測試](cyu_yan_de_dan_yuan_ce_shi.md)
    * [Local SVN](local_svn.md)
+   * Autotools
    * [Garbage collection in C](garbage_collection_in_c.md)
    * [Nautilus (Ubuntu右鍵擴充)](nautilus_ubuntuyou_jian_kuo_514529.md)
    * [Network virtualize lab DIY](network_virtualize_lab_diy.md)
