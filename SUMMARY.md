@@ -41,7 +41,6 @@
    * [Message queue, semaphore, and shared memory大混戰](message_queue,_semaphore,_and_shared_memoryda_hun_zhan.md)
    * [TLV速成講解](tlvsu_cheng_jiang_jie.md)
    * [Global Environment Varaible](global_environment_varaible.md)
-* [Autotools: conditional target](autotools_conditional_target.md)
 * Autotools
    * [Conditional Target](conditional.md)
 * [Misc.](misc.md)
