@@ -44,7 +44,7 @@
 * [Autotools](autotools.md)
    * [Conditional Target](conditional.md)
    * [FAQ](faq.md)
-   * HowTo pkg-config
+   * [HowTo pkg-config](howto_pkg-config.md)
 * [Misc.](misc.md)
    * [C語言的單元測試](cyu_yan_de_dan_yuan_ce_shi.md)
    * [Local SVN](local_svn.md)
