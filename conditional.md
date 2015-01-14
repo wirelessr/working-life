@@ -1,6 +1,5 @@
 # Autotools: conditional target
 
-
 我就不去介紹如何寫一個sample了，那個應該隨便找都有，不外乎先用autoscanf產生一個configure.scan，然後改名成configure.ac，接著寫個Makefile.am，然後用autoreconf -i -f去產生configure，接著透過configure去產生Makefile.in和Makefile。
  
 本篇要介紹的是Makefile中常見的conditional strunction要怎麼在autotools中實作，有四個檔案
